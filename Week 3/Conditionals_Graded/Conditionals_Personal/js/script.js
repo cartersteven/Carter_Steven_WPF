@@ -10,10 +10,12 @@ var time = prompt("What is the remaining time needed to reach the destination, i
 var timeH = time / 60; //This turns the time variable into hours.
 var speedNeed = dist / timeH; //This calculates the needed speed to make it to the destination on time.
 
-if (speedNeed <= avg){
+/*if (speedNeed <= avg){
     //This will print if the speed needed is less than the speed currently made.
     console.log("You will make it to the destination on time")
 } else {
     //This will print if the speed needed is greater than the current speed.
     console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
-}
+}*/
+
+speedNeed <= avg ? console.log("You will make it to the destination on time") : console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
