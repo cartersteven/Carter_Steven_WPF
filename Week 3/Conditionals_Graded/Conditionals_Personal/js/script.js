@@ -11,11 +11,21 @@ var timeH = time / 60; //This turns the time variable into hours.
 var speedNeed = dist / timeH; //This calculates the needed speed to make it to the destination on time.
 
 /*if (speedNeed <= avg){
-    //This will print if the speed needed is less than the speed currently made.
-    console.log("You will make it to the destination on time")
+ //This will print if the speed needed is less than the speed currently made.
+ console.log("You will make it to the destination on time")
+ } else {
+ //This will print if the speed needed is greater than the current speed.
+ console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
+ }*/
+if (avg == ""){
+    //This checks to make sure there is a value in the 'avg' variable.
+    console.log("You did not enter anything into the average speed prompt. Refresh the page and try again.")
+} else if (dist == ""){
+    //This checks to make sure there is a value in the 'dist' variable.
+    console.log("You did not enter anything into the distance prompt. Refresh the page and try again.")
+} else if (time == ""){
+    //This checks to make sure there is a value in the 'time' variable.
+    console.log("You did not enter anything into the time remaining prompt. Refresh the page and try again.")
 } else {
-    //This will print if the speed needed is greater than the current speed.
-    console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
-}*/
-
-speedNeed <= avg ? console.log("You will make it to the destination on time") : console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
+    speedNeed <= avg ? console.log("You will make it to your destination on time") : console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
+}
