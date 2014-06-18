@@ -30,4 +30,10 @@ if (imHeight = ""){
 } else if (borSize < 0){
     //This makes sure there is a positive or zero value.
     console.log("Please start again. There can not be a negative border value. The value that you entered is " + borSize + ".")
-} else
+} else if (borHeight > holeHeight || borWidth >holeWidth ){
+    //This finds out if the hole size is smaller than the image size.
+    console.log("The image with the border added is too big for the div that it is going into.")
+} else {
+    //This states that the image will fit.
+    console.log("The image will fit into the div.")
+}
