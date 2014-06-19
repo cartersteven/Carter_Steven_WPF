@@ -24,7 +24,7 @@ if (cap == ""){
 } else if (weight > cap){
     //This will produce an error that states that not a single item can fit.
     console.log("You cannot fit a single " + item + " onto this elevator.");
-} else if (weight ==0){
+} else if (weight == 0){
     //this will print an error if the item is mispelled
     console.log("You typed something outside of the program parameters. Please try again.")
 } else {
