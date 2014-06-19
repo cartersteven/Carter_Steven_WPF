@@ -40,16 +40,3 @@ if (imHeight == ""){
     //This states that the image will fit.
     console.log("The image will fit into the div.");
 }
-
-/*if (imHeight == ""){
-    //This checks to make sure there is a value in the 'avg' variable.
-    console.log("You did not enter anything into the average speed prompt. Refresh the page and try again.")
-} else if (imWidth == ""){
-    //This checks to make sure there is a value in the 'dist' variable.
-    console.log("You did not enter anything into the distance prompt. Refresh the page and try again.")
-} else if (holeHeight == ""){
-    //This checks to make sure there is a value in the 'time' variable.
-    console.log("You did not enter anything into the time remaining prompt. Refresh the page and try again.")
-} else if (holeWidth == ""else {
-    speedNeed <= avg ? console.log("You will make it to your destination on time") : console.log("You will not make it on time. The average speed that you need to maintain is at least " + speedNeed + "mph.")
-}*/
