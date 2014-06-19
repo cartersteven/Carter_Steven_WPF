@@ -27,8 +27,28 @@ if (cap == ""){
 } else if (weight == 0){
     //this will print an error if the item is mispelled
     console.log("You typed something outside of the program parameters. Please try again.")
-} else {
+} else if (weight == 130){
+    //This will provide the correct grammar for plural sheep.
+    numberFit = cap / weight | 0;
+    console.log("You can fit " + numberFit + " " + item + " onto this elevator.");
+} else if (weight == 0.375){
+    //This will provide the correct grammar for plural bananas.
+    numberFit = cap / weight | 0;
+    console.log("You can fit " + numberFit + " " + item + "s onto this elevator.");
+} else if (weight == 2568){
+    //This will provide the correct grammar for plural Mini Coopers.
+    numberFit = cap / weight | 0;
+    console.log("You can fit " + numberFit + " " + item + "s onto this elevator.");
+} else if (weight == 0.123){
+    //This will provide the correct grammar for plural Rubber Duckies.
+    numberFit = cap / weight | 0;
+    console.log("You can fit " + numberFit + " rubber duckies onto this elevator.");
+} else if (weight == 143){
+    //This will provide the correct grammar for plural Mister Rogers'.
+    numberFit = cap / weight | 0;
+    console.log("You can fit " + numberFit + " of " + item + " onto this elevator.");
+}/*else {
     //This divides the capacity by the item's weight and displays how many can fit onto the elevator.
     numberFit = cap / weight | 0;
-    console.log("You can fit " + numberFit + " " + item + "'s onto this elevator.")
-}
+    console.log("You can fit " + numberFit + " " + item + "'s onto this elevator.");
+}*/
