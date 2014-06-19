@@ -47,8 +47,4 @@ if (cap == ""){
     //This will provide the correct grammar for plural Mister Rogers'.
     numberFit = cap / weight | 0;
     console.log("You can fit " + numberFit + " of " + item + " onto this elevator.");
-}/*else {
-    //This divides the capacity by the item's weight and displays how many can fit onto the elevator.
-    numberFit = cap / weight | 0;
-    console.log("You can fit " + numberFit + " " + item + "'s onto this elevator.");
-}*/
+}
