@@ -36,11 +36,12 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25951558" vertical-offset="0" max-vertical-offset="578">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.23356402" vertical-offset="0" max-vertical-offset="578">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc;n#outptMsg#0" expanded="false" />
                 <element signature="n#!!block;n#outptMsg#0" expanded="false" />
+                <element signature="n#!!block;n#calcArea#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,6 +138,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="894a9c6b-842c-44d1-87f0-9004bbb3c6ea" name="Default" comment="" />
@@ -198,11 +202,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25951558" vertical-offset="0" max-vertical-offset="578">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.23356402" vertical-offset="0" max-vertical-offset="578">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc;n#outptMsg#0" expanded="false" />
             <element signature="n#!!block;n#outptMsg#0" expanded="false" />
+            <element signature="n#!!block;n#calcArea#0" expanded="false" />
           </folding>
         </state>
       </provider>
