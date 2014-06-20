@@ -2,7 +2,7 @@
 /**
  * Created by Stevencarter on 6/20/14.
  */
-
+var width = 5;
 function outptMsg(){
     console.log("Hello World!");
 }
@@ -15,5 +15,4 @@ function calcArea (){
 }
 
 calcArea();
-calcArea();
-calcArea();
+console.log(width);
