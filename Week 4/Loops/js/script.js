@@ -2,15 +2,15 @@
 /**
  * Created by shaunacarter on 6/21/14.
  */
-/*console.log("----------- While Loops -------------");
+console.log("----------- While Loops -------------");
 var b = 10;
 
 while (b > 0){
     console.log(b + " kegs on the wall.");
     b--;
 }
-*/
-/*console.log("----------- Do While Loops -------------");
+
+console.log("----------- Do While Loops -------------");
 
 var c = 10;
 
@@ -19,7 +19,7 @@ do{
     c--;
 }
 while {c > 10};
-    */
+
 console.log("------------ For Loops ------------");
 
 for(var i = 10 ; i > 0; i--){
