@@ -1,4 +1,4 @@
-//The work for the loops Video 1
+//The work for the loops Videos.
 /**
  * Created by shaunacarter on 6/21/14.
  */
