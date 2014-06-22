@@ -22,7 +22,7 @@ var espresso = function(){
     var milligrams = [0,0,0,0,180,225,360];
     var print = milligrams[prompt("Which espresso based drink are you using here? Your options are:\nA 'Weak' Iced Espresso at home\nA 'Strong' Iced Espresso at home\n Or a 'Venti' Starbucks Iced Caramel Macchiato").length];
     return print;
-};
+}; //This function will gather data from the user about which drink they drank.
 var energy = function(){
     //This section of comments makes note of the size and strength of several energy drinks that I commonly enjoy.
     //"Little NOS" = 10 = 160mg
@@ -31,40 +31,47 @@ var energy = function(){
     var milligrams = [0,0,0,0,0,0,0,220,180,0,160];
     var print = milligrams[prompt("Which energy drink are you using here? Your options are:\nA 'Little NOS'\nA 'Big NOS'\nOr any of the various 'Monsters'").length];
     return print;
-};
+}; //This function will gather data from the user about which drink they drank.
 
-var caffeineTotal = [];
+var caffeineTotal = []; //This starts the array that the data goes into from the data collection.
 
-var drinks = prompt("How many drinks have you had today?\nBe honest.");
+var drinks = prompt("How many drinks have you had today?\nBe honest."); //This sets how many times the loop will run.
 if (drinks == ""){
+    //This makes sure there is a value in the drinks prompt.
     alert("Please start again. You did not enter a value.");
     console.log("Please start again. You did not enter a value.");
 } else if (drinks <= 0){
+    //This makes sure that there is a positive value in the drinks prompt.
     alert("Please start again. The value cannot be at or below zero.");
     console.log("Please start again. The value cannot be at or below zero");
 } else {
-
     while(drinks > 0){
-        var callFunc = prompt("What was the next drink based on?\nCoffee, Espresso, or Energy.");
+        //This starts the loop for data collection
+        var callFunc = prompt("What was the next drink based on?\nCoffee, Espresso, or Energy."); //This makes the computer know which function to invoke.
         if (callFunc == "coffee" || callFunc == "Coffee"){
+            //This invokes the coffee function in the event that coffee is put in the box.
             caffeineTotal.push(coffee())
         } else if(callFunc == "espresso" || callFunc == "Espresso"){
+            //This invokes the espresso function in the event that espresso is put in the box.
             caffeineTotal.push(espresso())
         } else if (callFunc == "energy" || callFunc == "Energy"){
+            //This invokes the energy function in the event that energy is put in the box.
             caffeineTotal.push(energy())
-        } else if (callFunc == 0){
         } else {
+            //This is a typo alert.
             console.log('"' + callFunc + '" is not one of the accepted responses to the question.');
         }
-        drinks--;
+        drinks--; //This decriments the value of drinks every time the loop runs.
     }
 }
-var totalTotal = eval(caffeineTotal.join('+'));
+var totalTotal = eval(caffeineTotal.join('+')); //This totals the values from the array created on line 36.
 
 if(totalTotal >= 400){
+    //This logs a statement saying to stop drinking caffeine because you are over the limit
     var more = totalTotal - 400;
     console.log("You have had " + more + "mg of caffeine over the FDA Guidelines on caffeine suggest. No more for you.");
 } else {
+    //This states the total from the data.
     console.log("You have had " + totalTotal + "mg of caffeine so far today. Remember that the FDA Guidelines set the ceiling at 400mg.")
 }
 
