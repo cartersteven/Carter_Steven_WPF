@@ -63,7 +63,7 @@ var totalTotal = eval(caffeineTotal.join('+'));
 
 if(totalTotal >= 400){
     var more = totalTotal - 400;
-    console.log("You have had " + more + "mg of caffeine than the FDA Guidelines on caffeine suggest. No more for you.");
+    console.log("You have had " + more + "mg of caffeine over the FDA Guidelines on caffeine suggest. No more for you.");
 } else {
     console.log("You have had " + totalTotal + "mg of caffeine so far today. Remember that the FDA Guidelines set the ceiling at 400mg.")
 }
