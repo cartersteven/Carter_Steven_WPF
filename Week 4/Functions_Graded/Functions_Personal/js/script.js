@@ -36,15 +36,11 @@ var energy = function(){
 var caffeineTotal = []; //This starts the array that the data goes into from the data collection.
 
 var drinks = prompt("How many drinks have you had today?\nBe honest."); //This sets how many times the loop will run.
-if (drinks == ""){
-    //This makes sure there is a value in the drinks prompt.
-    alert("Please start again. You did not enter a value.");
-    console.log("Please start again. You did not enter a value.");
-} else if (drinks <= 0){
-    //This makes sure that there is a positive value in the drinks prompt.
-    alert("Please start again. The value cannot be at or below zero.");
-    console.log("Please start again. The value cannot be at or below zero");
-} else {
+
+while((drinks < 0 || drinks == "")) {
+drinks = prompt ("ERROR\nThis is an invalid number. Please input a number greater than or equal to zero.")
+}
+
     while(drinks > 0){
         //This starts the loop for data collection
         var callFunc = prompt("What was the next drink based on?\nCoffee, Espresso, or Energy."); //This makes the computer know which function to invoke.
@@ -63,7 +59,6 @@ if (drinks == ""){
         }
         drinks--; //This decriments the value of drinks every time the loop runs.
     }
-}
 var totalTotal = eval(caffeineTotal.join('+')); //This totals the values from the array created on line 36.
 
 if(totalTotal >= 400){
