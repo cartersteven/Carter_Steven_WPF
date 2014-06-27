@@ -29,7 +29,7 @@ while(compnumber > 0){
     } else {
         suffix = "th";
     }
-    var speed = companySpeedMultiplier(prompt("What is the " + compcount + suffix + " company you are comparing today?\nPlease type precisely.\nYour choices are:\nBright House\nComcast\nVerizon\nAT&T\nHughes Net\nJuno\nTime Warner\nGoogle""),prompt("What is the advertised download speed on that plan?"));
+    var speed = companySpeedMultiplier(prompt("What is the " + compcount + suffix + " company you are comparing today?\nPlease type precisely.\nYour choices are:\nBright House\nComcast\nVerizon\nAT&T\nHughes Net\nJuno\nTime Warner\nGoogle"),prompt("What is the advertised download speed on that plan (in Mb/s)?"));
     console.log("The " + compcount + suffix + " plan has an actual download speed of " + speed + "Mb/s.");
     compnumber--;
     compcount++;
