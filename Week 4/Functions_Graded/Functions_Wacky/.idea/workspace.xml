@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
@@ -36,9 +36,15 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94690263" vertical-offset="170" max-vertical-offset="795">
-              <caret line="47" column="228" selection-start-line="47" selection-start-column="228" selection-end-line="47" selection-end-column="228" />
-              <folding />
+            <state vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="565">
+              <caret line="43" column="108" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="108" />
+              <folding>
+                <element signature="e#108#154#0" expanded="false" />
+                <element signature="e#497#888#0" expanded="false" />
+                <element signature="e#1181#1312#0" expanded="false" />
+                <element signature="e#1418#1683#0" expanded="false" />
+                <element signature="e#1714#1846#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Functions_Personal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -195,11 +201,39 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465">
+          <caret line="47" column="228" selection-start-line="47" selection-start-column="228" selection-end-line="47" selection-end-column="228" />
+          <folding>
+            <element signature="e#108#154#0" expanded="false" />
+            <element signature="e#497#888#0" expanded="false" />
+            <element signature="e#1181#1312#0" expanded="false" />
+            <element signature="e#1418#1683#0" expanded="false" />
+            <element signature="e#1714#1846#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#108#154#0" expanded="false" />
+            <element signature="e#497#888#0" expanded="false" />
+            <element signature="e#1181#1312#0" expanded="false" />
+            <element signature="e#1418#1683#0" expanded="false" />
+            <element signature="e#1714#1846#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -213,7 +247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
@@ -221,9 +255,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94690263" vertical-offset="170" max-vertical-offset="795">
-          <caret line="47" column="228" selection-start-line="47" selection-start-column="228" selection-end-line="47" selection-end-column="228" />
-          <folding />
+        <state vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="565">
+          <caret line="43" column="108" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="108" />
+          <folding>
+            <element signature="e#108#154#0" expanded="false" />
+            <element signature="e#497#888#0" expanded="false" />
+            <element signature="e#1181#1312#0" expanded="false" />
+            <element signature="e#1418#1683#0" expanded="false" />
+            <element signature="e#1714#1846#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
